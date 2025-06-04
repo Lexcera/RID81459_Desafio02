@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #02A28F;
+    font-family: Montserrat;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #02A28F;
+    font-family: Montserrat;
+    color: #fff;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: .8rem;
+}
+
+header h1 {
+    margin-left: 5rem;
+}
+
+.topicos {
+    background-color: #02A28F;
+
+    font: "montserrat";
+    color: #fff;
+
+    padding: 1rem;
+    border-radius: 1rem;
+
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1rem;
+
+
+}
+
+h1 {
+    margin: 0 0 0
+}
+
+h2 {
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#topo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+
+    margin: 2rem 5rem 2rem 5rem;
+    /* border: 2px solid red; */
+}
+
+.principal img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.cardLat {
+    display: grid;
+    grid-template-columns:30% 70%;
+    margin-bottom: 1rem;
+
+    gap: 1rem;
+    
+    border-radius: 1rem;
+    
+    box-shadow: 0 10px 5px #9b9b9b;
+
+    /* width: 50%; */
+}
+
+.cardLat img {
+    width: 100%;
+}
+
+#corpo {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+.tituloCorpo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloCorpo p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 0.8rem;
+
+    text-decoration: underline;
+
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 10px 5px #9b9b9b;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2{
+    padding: .5rem;
+}
+
+.topicCard{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: .8rem;
+
+    color: #02A28F;
+}
+
+.contCard {
+    font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.data {
+  color:#616161;
+  font-size: .9rem;
+
+  font-family: "montserrat";
+  font-weight: 500;
+}
+
+.destaques {
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin: 1rem 0 0 0;
+}
+
+.destaques p {
+    padding: .5rem;
+}
+
+.categoriasLat {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+.lateralInf {
+    width: 50%;
+}
+
+.textPop {
+    padding-top: 1rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    #topo {
+        display: flex;
+        flex-direction: column;
+
+        margin: .5rem;
+    }
+
+    .destaques {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #corpo {
+        display: flex;
+        flex-direction: column;
+
+        margin: .5rem;
+    }
+
+    .lateralInf {
+        width: 100%;
+    }
+
+    .principal img{
+        margin: 0;
+
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+}
